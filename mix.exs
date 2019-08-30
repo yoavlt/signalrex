@@ -35,7 +35,7 @@ defmodule Signalrex.Mixfile do
 
   defp deps do
     [
-      {:poison, "~> 3.1"},
+      {:poison, "~> 4.0.0"},
       {:tesla, "~> 0.9.0"},
       {:enchufeweb, github: "mendrugory/enchufeweb"},
       {:earmark, ">= 0.0.0", only: :dev},
